@@ -1,15 +1,13 @@
-# Basic Sample Hardhat Project
+# Simple Ballot Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project is a simple voting system where candidates can be created and voted on. The smart contract is created with solidiy and run on the rinkeby testnet. It uses hardhat and ethers.js to run and connect to the Next.js application
 
-Try running some of the following tasks:
+Create app in alchemy.io and add the id to a file name .id
+Get secret of your account in metamask and add it to a file name .secret.
+Create these files in your project root
+
+To run:
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+npm run dev
 ```
