@@ -3,7 +3,9 @@ node_modules
 coverage
 coverage.json
 typechain
-
+.id
+.secret
+info.js
 #Hardhat files
 cache
 artifacts
